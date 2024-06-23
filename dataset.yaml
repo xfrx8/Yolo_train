@@ -1,0 +1,6 @@
+train: /home/fengrenxu/Dataset/yolov8/output_dataset1/images/train
+val: /home/fengrenxu/Dataset/yolov8/output_dataset1/images/val
+test: /home/fengrenxu/Dataset/yolov8/output_dataset1/images/test
+
+nc: 1  # number of classes
+names: ['coco']
