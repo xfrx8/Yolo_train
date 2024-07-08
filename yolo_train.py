@@ -2,7 +2,7 @@ if __name__ == '__main__':
     from ultralytics import YOLO
 
     # Initialize model
-    model = YOLO('yolov8n.pt')
+    model = YOLO('runs/detect/train31/weights/best.pt')
     
     # Start training
-    model.train(data='dataset.yaml', epochs=100, imgsz=1280,batch=48)
+    model.train(data='/home/fengrenxu/Dataset/行为识别/Yolo_train/dataset.yaml', epochs=50, imgsz=640,batch=48)
