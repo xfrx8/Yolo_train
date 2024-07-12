@@ -1,6 +1,6 @@
-train: output_dataset/images/train
-val: output_dataset/images/val
-test: output_dataset/images/test
+train: output_dataset5/images/train
+val: output_dataset5/images/val
+test: output_dataset5/images/test
 
 nc: 1  # number of classes
 names: ['coco']

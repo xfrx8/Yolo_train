@@ -3,6 +3,6 @@ if __name__ == '__main__':
     from ultralytics import YOLO # 从ultralytics库导入YOLO类，用于加载和使用YOLO模型
 
     # Initialize model
-    model = YOLO('runs/detect/train29/weights/best.pt') # 初始化YOLO模型，加载预训练的模型文件'yolov8n.pt'
-    results = model.predict(source='videos/视频1.mp4', imgsz=640, conf=0.7, save=True)
+    model = YOLO('runs/detect/train36/weights/best.pt') # 初始化YOLO模型，加载预训练的模型文件'yolov8n.pt'
+    results = model.predict(source='videos/视频7.mp4', imgsz=640, conf=0.7, save=True)
 

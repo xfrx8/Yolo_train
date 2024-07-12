@@ -1,7 +1,7 @@
 import os
 
 # 定义要处理的目录
-directory = '标注数据/第二次'
+directory = '标注数据/第四次增强2/annotations'
 
 # 定义列的分隔符（根据你的文件格式进行调整，例如使用空格或逗号）
 separator = ' '  # 假设列是用空格分隔的

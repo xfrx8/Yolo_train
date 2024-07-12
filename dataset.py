@@ -3,12 +3,12 @@ import shutil
 import random
 
 # 定义数据集路径
-dataset_path = '白手套/第二次'
-images_path = os.path.join(dataset_path, 'image')
-labels_path = os.path.join(dataset_path, 'annotation')
+dataset_path = '标注数据/第四次增强2'
+images_path = os.path.join(dataset_path, 'images')
+labels_path = os.path.join(dataset_path, 'annotations')
 
 # 定义输出路径
-output_path = 'output_dataset1'
+output_path = 'output_dataset5'
 train_images_path = os.path.join(output_path, 'images', 'train')
 val_images_path = os.path.join(output_path, 'images', 'val')
 test_images_path = os.path.join(output_path, 'images', 'test')
